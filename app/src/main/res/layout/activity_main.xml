@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Cryptography"
+        android:layout_width="315dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="84dp"
+        android:text="Cryptography"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/encd"
+        android:layout_width="231dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="68dp"
+        android:text="Encryption"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Cryptography" />
+
+    <Button
+        android:id="@+id/decd"
+        android:layout_width="229dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="80dp"
+        android:text="Decryption"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/encd" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
